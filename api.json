@@ -1,0 +1,12 @@
+[
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":20, "numerohab": 3, "tipo":"Casa", "metros":"30cm", "barrio":"Cerro", "interes":"alquiler"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":30, "numerohab": 20, "tipo":"Apartamento", "metros":"2cm", "barrio":"Casabo", "interes":"venta"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":1, "numerohab": 5, "tipo":"Apartamento", "metros":"35cm", "barrio":"Ciudad Vieja", "interes":"venta"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":56, "numerohab": 76, "tipo":"Casa", "metros":"12cm", "barrio":"Pocitos", "interes":"alquiler"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":7000, "numerohab": 9, "tipo":"Apartamento", "metros":"209cm", "barrio":"Artigas", "interes":"alquiler"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":602, "numerohab": 23, "tipo":"Casa", "metros":"326", "barrio":"Aguada", "interes":"venta"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":2356, "numerohab": 64, "tipo":"casa", "metros":"123", "barrio":"Buceo", "interes":"venta"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":23521, "numerohab": 7, "tipo":"Apartamento", "metros":"662", "barrio":"Punta Carretas", "interes":"alquiler"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":757, "numerohab": 22, "tipo":"Casa", "metros":"385", "barrio":"Parque Rodo", "interes":"venta"},
+    {"imagen":"/media/Partes-de-la-casa-en-inglés-1.jpg","precio":97236, "numerohab": 40, "tipo":"Apartamento", "metros":"35cm", "barrio":"Centro", "interes":"venta"}
+]

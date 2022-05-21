@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(to bottom, #e22e40 0%, #161616 100%)
+    
+}
+.card{
+    border-radius: 15px;
+    /* border-color: rgba(0, 0, 0, 0.638) !important;*/
+    background-color: transparent !important; 
+    border: unset;
+}
+.card-body{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    border-color: rgba(0, 0, 0, 0.638);
+}
+.cardIm{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-img-top{
+    border-color: transparent !important;
+}
+
+.boton:focus{
+    background-color: #dc3545;
+    color: white;
+    border-style: none;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 30rem;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/casita.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+
+#hero h1{
+    color: #ffff;
+}
+.filtros{
+    margin: 10px;
+}
+.filtros:hover{
+    background-color: #dc3545;
+    color: white;
+    border-style: none;
+}

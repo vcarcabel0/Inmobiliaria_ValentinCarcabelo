@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Tuki🐸</title>
+</head>
+<body>
+    <header>
+        <div class="bd-example">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <img src="media/Inmobiliaria tuki.png" width="200px" alt="">
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+    </section>
+    <!--Quienes somos-->
+    <section id="hero">
+        <div class="container">
+            <div class="img-container"></div>
+        <div class="texto">
+            <h2 class="text-light fs-1 fw-bold">Inmobiliaria <span class="text-danger">Tuki</span></h2>
+            <p class="text-light fs-4 fw-normal">Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Ut consequuntur nam aliquid dolores non aliquam, 
+                quo dolor omnis incidunt ducimus possimus, officia repellat blanditiis! 
+                Quidem consectetur temporibus dolores labore quisquam.</p>
+                <div class="d-flex-center m-5">
+                    <a class="nav-item btn btn-outline-light filtros">Vender</a>
+                    <a class="nav-item btn btn-outline-light filtros">Comprar</a>
+                    <a class="nav-item btn btn-outline-light filtros">Alquilar</a>
+                </div>
+                    <div class="navbar.collapse collapse show p-4" id="navbarColor01">
+                        <form class="d-flex" role="search">
+                            <input id=""class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-danger" type="submit">Buscar</button>
+                        </form>
+                    </div>
+        </div>
+    </div>
+</section>
+<br>
+    <!--Filtrado-->    
+    <div class="container-fluid text-center">
+            <div><h4></h4></div>
+            <div> <br>
+                <!-- <button id="botonTipo" class="boton btn btn-dark">Tipo</button> -->
+                <select name="" id="botonTipo" class="boton btn btn-dark">
+                    <option value="Casa" class="boton btn btn-dark">Casa</option>
+                    <option value="Apartamento">Apartamento</option>
+                </select>
+                <select name="" id="botonBarrio" class="boton btn btn-dark">
+                    <option value="Casabo" class="boton btn btn-dark">Casabo</option>
+                    <option value="Cerro">Cerro</option>
+                    <option value="Ciudad Vieja"> Ciudad vieja</option>
+                    <option value="Pocitos">Pocitos</option>
+                    <option value="Artigas">Artigas</option>
+                    <option value="Aguada">Aguada</option>
+                    <option value="Buceo">Buceo</option>
+                    <option value="Parque Rodo">Parque Rodo</option>
+                    <option value="Punta Carretas">Punta Carretas</option>
+                    <option value="Centro">Centro</option>
+                </select> 
+                <select name="" id="botonInteres" class="boton btn btn-dark">
+                    <option value="alquiler">Alquiler</option>
+                    <option value="venta">Venta</option>
+                </select>
+            </div>
+        </div>
+         <!--<form id="form">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido">
+            <br>
+            <br>
+            <label for="curso">Cursa</label>
+            <select name="" id="curso">
+                <option value="javascript">Javascript</option>
+                <option value="programacion">Programacion</option>
+                <option value="json">JSON</option>
+            </select>
+        </form>
+        <button id="botonEnviar">Enviar </button> -->
+    
+        <!-- <div class="container mt-3 mb-3 bg-dark">
+            <div id="tabla">
+                <table class="table table-dark table-striped pb-3">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Curso</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="pb-3">
+                            <td class="pb-3" colspan="4" rowspan="10">No se ah ingresado a nadie</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div> -->
+    <!--CARDS-->
+    <article>
+        <div class="container-luid" id="tarjetas">
+            <div class="row">
+                <div id="casas"></div>
+            </div>
+        </div>
+    </article>
+</section>
+<footer>
+</footer>
+<script src="tuki.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
