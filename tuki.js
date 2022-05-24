@@ -58,29 +58,6 @@ var botonMetros = document.getElementById("botonMetros");
 var botonBarrio = document.getElementById("botonBarrio");
 var botonAlquiler = document.getElementById("botonAlquiler");
 
-// var botonT = document.getElementById("botonTipo");
-
-// function ordenarTipo(){
-//    let tarjeta = [];
-//     var listaFiltrada = tarjeta.filter(inmueble => {for(i=0; i<tarjeta.length; i++){
-//         inmueble[i].tipo = "Casa" 
-//      }});
-//     console.log(listaFiltrada)
-//     mostrarCasa(listaFiltrada)
-
-/* botonT.addEventListener("click",ordenarTipo)
-function ordenarBarrio(){
-    listaFiltrada = tarjeta.filter(function(anterior,siguiente){
-        if(anterior.barrio > siguiente.barrio){
-            return 1;
-        }
-        if(anterior.barrio < siguiente.barrio){
-            return -1
-        }
-        return 0;
-    })
-    mostrarCasa(listado)
-} */
 var botonT = document.getElementById("botonTipo");
 
 function ordenarTipo(){
@@ -123,10 +100,10 @@ botonI.addEventListener("click",ordenarInteres)
 var botonB = document.getElementById("botonBarrio")
 function ordenarBarrio(){
     fetch("api.json")
-        .then(res => res.json())
-        .then(data =>{
-            let listaFiltradaB = [];
-            for(i=0; i< data.length; i++){
+    .then(res => res.json())
+    .then(data =>{
+        let listaFiltradaB = [];
+        for(i=0; i< data.length; i++){
                 if(data[i].barrio == "Cerro" && botonB.value == "Cerro"){
                     listaFiltradaB.push(data[i])
                 }else if(data[i].barrio == "Casabo" && botonB.value == "Casabo"){
@@ -152,14 +129,40 @@ function ordenarBarrio(){
             console.log(listaFiltradaB)
             mostrarCasa(listaFiltradaB)
         })
-}
-botonB.addEventListener("click", ordenarBarrio)
+    }
+    botonB.addEventListener("click", ordenarBarrio)
 
+    
 
-/* boton.barrio.addEventListener("click",ordenarBarrio)
-boton.interes.addEventListener("click",ordenarInteres) */
-
-
+    // var botonT = document.getElementById("botonTipo");
+    
+    // function ordenarTipo(){
+    //    let tarjeta = [];
+    //     var listaFiltrada = tarjeta.filter(inmueble => {for(i=0; i<tarjeta.length; i++){
+    //         inmueble[i].tipo = "Casa" 
+    //      }});
+    //     console.log(listaFiltrada)
+    //     mostrarCasa(listaFiltrada)
+    
+    /* botonT.addEventListener("click",ordenarTipo)
+    function ordenarBarrio(){
+        listaFiltrada = tarjeta.filter(function(anterior,siguiente){
+            if(anterior.barrio > siguiente.barrio){
+                return 1;
+            }
+            if(anterior.barrio < siguiente.barrio){
+                return -1
+            }
+            return 0;
+        })
+        mostrarCasa(listado)
+    } */
+    
+    
+    /* boton.barrio.addEventListener("click",ordenarBarrio)
+    boton.interes.addEventListener("click",ordenarInteres) */
+    
+    
 /* var botonEnviar = document.getElementById("botonEnviar");
 var listado = [];
 
